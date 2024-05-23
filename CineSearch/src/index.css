@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Cera Pro Bold";
+  src: url(../src/assets/Cera-Pro/Cera\ Pro\ Bold.otf) format();
+}
+
+@font-face {
+  font-family: "Cera Pro Light";
+  src: url(../src/assets/Cera-Pro/Cera\ Pro\ Light.otf);
+}
+
+@font-face {
+  font-family: "Cera Pro Regular";
+  src: url(../src/assets/Cera-Pro/Cera\ Pro\ Regular.otf);
+}
+
+@font-face {
+  font-family: "Cera Pro Medium";
+  src: url(../src/assets/Cera-Pro/Cera\ Pro\ Medium.otf) format("opentypefont");
+}
+
+@font-face {
+  font-family: "Cera Pro Thin";
+  src: url(../src/assets/Cera-Pro/Cera\ Pro\ Thin.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cera Pro Regular";
+}
+.botonesAnteriroSiguiete{
+  display: flex;
+  width: 100%;
+  position: relative;
+  right: 250px;
+  justify-content: center;
+}
